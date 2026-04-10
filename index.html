@@ -155,7 +155,7 @@
     </header>
     <div class="container">
         <h1>Join our best Gym</h1>
-        <form onsubmit="return false;">
+        <form onsubmit="event.preventDefault(); alert('Form submitted successfully!');">
             <div class="form-group">
                 <input type="text" name="" placeholder="Enter your name">
             </div>
